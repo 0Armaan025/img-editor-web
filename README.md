@@ -3,15 +3,33 @@
 
 ### Sources:
 1.) https://pub.dev/packages/image
+
+<br/>
+
 2.) https://pub.dev/packages/image_picker
+
+<br/>
+
 3.) https://pub.dev/packages/path_provider
+
+<br/>
+
 4.0.) we are NOT using colorpicker, we can though, in just the addText() function, add this: ``color: img.getColor(
   selectedColor.red,
   selectedColor.green,
   selectedColor.blue,
 )``, you would also need to add a dialog to pick the color tho, way too much of mess acc. to me :/
+
+<br/>
+
 4.1.) https://pub.dev/packages/flutter_colorpicker
+
+<br/>
+
 5.) https://flutter.dev/
+
+<br/>
+
 6.) we will be using: https://zapp.run/
 
 first, we will go ahead and put these in ``pubspec.yaml`` file:
@@ -157,3 +175,5 @@ Additionally, we can also save the img if you want(do the hot reload thingy if y
 ```
 
 Assignment: add a button, I know you can do it, create a Container widget, and add Inkwell on top of it.
+
+Thanks! :D
