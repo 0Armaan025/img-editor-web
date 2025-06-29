@@ -1,4 +1,4 @@
-Gist for UI: https://gist.github.com/0Armaan025/c7642a5a807221f023226553690c048d
+Gist for UI: https://gist.github.com/0Armaan025/c7642a5a807221f023226553690c048d\n
 Flutter docs (official): https://flutter.dev/docs
 Flutter YT (official): https://www.youtube.com/flutterdev
 Dart langugage tour (official): https://dart.dev/guides/language/language-tour
