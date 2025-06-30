@@ -183,7 +183,7 @@ Thanks! :D
 
 ```
 import 'package:flutter/src/widgets/placeholder.dart';
-}import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/src/widgets/framework.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
