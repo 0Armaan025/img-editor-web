@@ -361,4 +361,12 @@ Container(
 
 
 ```
+
+```
+Center(
+        child: imageBytes == null
+            ? const Text("No image selected")
+            : Image.memory(imageBytes!),
+      ),
+```
 https://app.sli.do/event/vrsyu7DVzdrkcUD6BQR92Q
