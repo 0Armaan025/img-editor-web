@@ -229,4 +229,60 @@ class _HomePageState extends State<HomePage> {
 
 
   ```
+
+
+
+```
+import 'dart:io';
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+
+import 'package:flutter/material.dart';
+import 'package:image/image.dart' as img;
+import 'package:path_provider/path_provider.dart';
+import 'package:flutter_colorpicker/flutter_colorpicker.dart';
+import 'package:image_picker/image_picker.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+
+    Uint8List? imageBytes; // this thing right here is a list of bytes (basically collections, we will store img as bytes instead of files)
+    img.Image? originalImage; // this will be the original image, it could only be Image? originalImage too, but we r importing it 'as immg'
+
+
+  
+
+  @override
+  Widget build(BuildContext context) {
+    return  Scaffold(
+      body: Column(
+        children: [
+          Container(
+  color: Colors.black, 
+  child: Text("click me", style: TextStyle(color: Colors.white)),
+),
+Container(
+  color: Colors.black, 
+  child: Text("click me", style: TextStyle(color: Colors.white)),
+),
+
+Container(
+  color: Colors.black, 
+  child: Text("click me", style: TextStyle(color: Colors.white)),
+),
+
+        ],
+      ),
+    );
+  }
+}
+
+
+```
 https://app.sli.do/event/vrsyu7DVzdrkcUD6BQR92Q
