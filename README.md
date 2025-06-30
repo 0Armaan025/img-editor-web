@@ -179,3 +179,22 @@ Assignment: add a button, I know you can do it, create a Container widget, and a
 Q/A Link:https://app.sli.do/event/vrsyu7DVzdrkcUD6BQR92Q
 
 Thanks! :D
+
+
+```
+import 'package:flutter/src/widgets/placeholder.dart';
+}import 'package:flutter/src/widgets/framework.dart';
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+
+```
