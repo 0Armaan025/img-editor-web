@@ -202,10 +202,31 @@ class _HomePageState extends State<HomePage> {
 ```
 
 ```
-Container(
-  color: black,
-  child: Text("click me", style: TextStyle(color: Colors.white),
-  
+import 'package:flutter/material.dart';
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return  Scaffold(
+      body: Column(
+        children: [
+          Container(
+  color: Colors.black, 
+  child: Text("click me", style: TextStyle(color: Colors.white)),
 ),
+        ],
+      ),
+    );
+  }
+}
+
+
+
   ```
 https://app.sli.do/event/vrsyu7DVzdrkcUD6BQR92Q
